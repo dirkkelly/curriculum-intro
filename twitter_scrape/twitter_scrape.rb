@@ -72,7 +72,7 @@ end
 #to filter out common words like it, she, the etc...
 words_over_four_chars = words_by_count.select {|k,v| k.length > 4}
 
-words_over_four_chars.sort_by{ |k, v| v }.reverse[0...25].each do |k,v|
+words_over_four_chars.sort_by{ |k, v| v }.reverse[0..25].each do |k,v|
   most_used_words.write "#{k}: #{v}\n"
 end
 
