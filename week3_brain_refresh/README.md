@@ -12,7 +12,7 @@ the brain meats flowing.
 singers = []
 ```
 
-* Loop over each song artist name and print what you think of them. For example, 
+* Loop over each song artist name and using `if statements`, print what you think of them. For example, 
 
 ```
 Paramore was the best concert ever.
@@ -31,6 +31,10 @@ gets.chomp
 
 # This is how to create a hash
 { "Paramore" => "Misery Business" }
+
+# This is what you should see
+> Please enter an artist name: Fallout Boy
+> Songs: ["Grand Theft Autumn", "Thanks for All the Memories", "Sugar, We're Going Down"]
 ```
 
 * Create a `SongArtist` class with the following methods: `songs` and `name`
@@ -38,7 +42,19 @@ gets.chomp
 You should be able to create new SongArtist instances and return it's name and songs.
 
 ```
-song_artist = SongArtist.new("Paramore")
-song_artist.name # => "Paramore"
-song_artist.songs # => ["Misery Business", "Crush Crush Crush", "The Only Exception"]
+# You can create a class like this
+
+class SongArtist
+  # write your methods here
+end
+
+# Instatiating objects are easy!
+SongArist.new("Paramore")
+
+# What I would expect to see
+song_artist.name
+=> "Paramore"
+
+song_artist.songs
+=> ["Misery Business", "Crush Crush Crush", "The Only Exception"]
 ```
