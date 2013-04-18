@@ -5,14 +5,14 @@ guess = 0
 tries = 0
 begin
   tries = tries + 1
-  puts "Guess a number between 1 and #{limit}, you have five tries"
+  puts "Guess a number between 1 and #{limit}. You have five tries"
   guess = gets.chomp.to_i
   if guess > random_number
     puts "Too high, try again!" unless tries == 5
   elsif guess < random_number
     puts "Too low!" unless tries == 5
   elsif guess == random_number
-    puts "Congratiolations! You won!"
+    puts "Congratulations! You won!"
   end
 end until guess == random_number or tries == 5
 
