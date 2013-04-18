@@ -31,3 +31,14 @@ For numbers 1 through 50:
 * Print `Fizz` for every number divisible by 3
 * Print `Buzz` for every number divisible by 5
 * Print `FizzBuzz` for every number divisible by 3 and 5
+
+```
+# Example Output
+3 - Fizz
+5 - Buzz
+6 - Fizz
+9 - Fizz
+10 - Buzz
+12 - Fizz
+15 - FizzBuzz
+```
