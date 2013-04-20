@@ -21,14 +21,14 @@ end
 
 puts "Welcome to Messengr"
 
-last_message_id = 15
+last_message_id = 0
 
 while true
   messages = parse(get_new_messages(last_message_id))
-  raise messages.inspect
-  last_message_id = messages.last[:id] if messages.any?
+  last_message_id = messages.last["id"] if messages.any?
   messages.each do |msg|
     puts "[At #{format_time(msg["created_at"])}] #{msg["user"].capitalize} says: #{msg["text"]}"
     puts "-"
   end
+  sleep 2
 end
