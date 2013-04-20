@@ -1,10 +1,12 @@
 require 'faraday'
 require 'json'
 
+MESSENGR_URL = ENV['PROD'] ? "http://messengr.herokuapp.com/messages" : "http://localhost:3000/messages"
+
 print "Welcome to Messengr, what's your username: "
 user = gets.chomp
 @user = user
-@connection = Faraday.new(:url => "http://localhost:3000" )
+@connection = Faraday.new(:url => MESSENGR_URL )
 
 def send_message(message)
   @connection.post do |req|

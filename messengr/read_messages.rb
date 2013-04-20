@@ -2,7 +2,9 @@ require 'faraday'
 require 'json'
 require 'time'
 
-@connection = Faraday.new(:url => "http://localhost:3000/messages")
+MESSENGR_URL = ENV['PROD'] ? "http://messengr.herokuapp.com/messages" : "http://localhost:3000/messages"
+
+@connection = Faraday.new(:url => MESSENGR_URL)
 
 def get_new_messages(last_message_id = 0)
   response = @connection.get do |req|
