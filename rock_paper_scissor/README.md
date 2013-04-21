@@ -41,3 +41,5 @@ Work on the following fundamentals:
 * JSON parsing
 
 Instead of having the logic for randomly selecting the computer's move inside the loop, use Faraday to send a `GET` request to a given address that will return the computer's move.  The student will then have to parse this JSON response to properly pass it into the RPSCalculator class.
+
+When hitting the rps-game server on heroku, remember to first set `PROD=1 ruby rock_paper_scissor_api.rb`.
