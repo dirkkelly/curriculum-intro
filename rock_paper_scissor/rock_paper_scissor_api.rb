@@ -2,7 +2,10 @@ require 'faraday'
 require 'json'
 require_relative 'rps_calculator'
 
-connection = Faraday.new(:url => "http://localhost:3000")
+RPS_URL = ENV['PROD'] ? "http://rps-game.herokuapp.com/computers_moves/new" : "http://localhost:3000/computers_moves/new"
+
+
+connection = Faraday.new(:url => RPS_URL)
 
 
 puts "Welcome to Rock Paper Scissors - API edition"
