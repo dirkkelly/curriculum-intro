@@ -10,6 +10,7 @@ Work on the following fundamentals:
 * basic use of collection (array)
 
 The user experience should resemble the following
+
     What's your move: rock
     The computer chose paper
     You Lose: paper beats rock
