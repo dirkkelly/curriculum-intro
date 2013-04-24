@@ -1,5 +1,6 @@
 #Obnoxious 3rd Person Referencing Boss
 **Learning Goal:** Show the importance of being able to save data to cut down on repetition
+
 **Task:** Change the bosses name from `Michael` to `Obama`
 
     puts "Michael had a great weekend"
@@ -10,6 +11,7 @@
 
 #Oh You Fancy, Huh
 **Learning Goal:** Show proper syntax for creating a valid variable
+
 **Task:** Given the following wannabe variables.  Write out which variables are valid and which are not.
 
 ###Variable Rules
@@ -17,6 +19,7 @@
 * Don't use spaces or punctuation, except for underscores. e.g. my_first_variable
 * You can use numbers – but not as the first character – and uppercase letters. But to keep things simple, just stick to lowercase characters and underscores
 
+```
     [march_madness]
     dog
     "cat"
@@ -26,10 +29,12 @@
     mcKinley_Mountain
     100baby_names
     xxxSweetGamerTagxxx
+```
 
 
 #Mad Lib Variable Name
 **Learning Goal:** Show that variables are just references to values - they are not defined by them.
+
 **Task:** Run the program initially and see its output.  Then change all the variable names to whatever you like.  What is the outcome of the program now?
 
     name = "james"
@@ -44,8 +49,9 @@
     #=>"james is 10 when he finds a 100 year old giant peach"
 
 
-#Political Flip Flopper
+#Confused Kayne West
 **Learning Goal:** Reinforce that variables are references / pointers to a value.
+
 **Task:** Kayne is a bit confused.  He meant to say `Greatest` `Ever` but his lyrics say `Ever` `Greatest`.  Each word is stored in a variable below.  Write a script that switches the values of each variable with each other.
 
 
