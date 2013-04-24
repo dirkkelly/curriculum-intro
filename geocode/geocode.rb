@@ -37,8 +37,11 @@ puts lat_and_lng(parsed_xml)
 #Iteration 3 (class)
 
 class Geocode
-  def initialize(url)
-    @url = url
+  BASE_URL = "http://maps.googleapis.com/maps/api/geocode/xml?address="
+
+  def initialize(address)
+    @address = address
+    @url = URI.encode(BASE_URL + address + "&sensor=false")
   end
 
   def geolocate
@@ -56,6 +59,6 @@ class Geocode
   end
 end
 
-g = Geocode.new("http://maps.googleapis.com/maps/api/geocode/xml?address=841+Broadway,+New+York,+NY&sensor=false")
+g = Geocode.new("841 Broadway, New York, NY")
 puts g.lat_and_lng
 
