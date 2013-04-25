@@ -8,7 +8,7 @@ friends_list = [["obama", "4108529630"], ["kayne", "4108529630"], ["jay-z", "410
 
 your_awesome_script
 
-=> { "obama" => "4108529630" }
+#=> { "obama" => "4108529630" }
 ```
 
 #Word Profile
@@ -19,6 +19,7 @@ your_awesome_script
 ```
 word_profiler("fizzbuzz")
 
+#=>
 Profile of Fizzbuzz:
 f: 12.5%
 i: 12.5%
@@ -46,7 +47,7 @@ Q, Z                               10
 
 
 scrabble_score("cabbage")
-=> 14
+#=> 14
 ```
 
 
