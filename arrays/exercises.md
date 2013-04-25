@@ -20,7 +20,7 @@ For example
 
 ```
 For example
-a = ["a", "b", "c"][2] = "bling" #=> ["a", "b", "bling"]
+a = ["a", "b", "c"] a[2] = "bling" #=> ["a", "b", "bling"]
 
 b = ["dc", "md", "place_waldo_here"]
 c = ["15", "train", ["movies", "dates"], "place_waldo_here", "w"]
