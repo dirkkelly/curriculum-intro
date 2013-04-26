@@ -16,6 +16,8 @@ your_awesome_script
 
 **Task:** Given a string with any number/type of characters build a hash that tracks the frequency of each character in the given string.
 
+**Hint:** Use `String#split` to break a string into an array of its individual characters.  A letter's frequency can be found by dividing its occurance by the total length of the string.
+
 ```
 word_profiler("fizzbuzz")
 
