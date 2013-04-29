@@ -15,7 +15,7 @@
 "uni" * "corn"
 ```
 
-#Pimp My Ride
+#Stay Fly
 **Learning Goal:** Practice using the basic `String` methods as well as local variables and arrays
 
 **Task:**  You are a baller.  Time to spend some green on some bling.  You decide to buy four new cars.  Create 4 `local_variables`.  Each one should represent a new car you purchased.  Add each car to an `Array` called `my_garage`.  Go through each car in your garage and print it to the screen in all uppercase letters.
