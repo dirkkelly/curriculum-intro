@@ -9,9 +9,9 @@ The following commands are the basics.  But they are enough for our purposes and
 
 #Opening the Command Line
 
-1) Click the `Start|Run` button in the bottom left
-2) Type: `CMD`
-3) Hit enter
+* 1) Click the `Start|Run` button in the bottom left
+* 2) Type: `CMD`
+* 3) Hit enter
 
 #The Commands
 `cd` = "current directory" (displays your current path)
