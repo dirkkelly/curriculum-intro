@@ -1,8 +1,9 @@
-limit = rand(200)
+limit = rand(100)
 
 random_number = rand(limit) + 1
 guess = 0
 tries = 0
+
 begin
   tries = tries + 1
   puts "Guess a number between 1 and #{limit}. You have five tries"
