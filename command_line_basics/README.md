@@ -9,8 +9,8 @@ The following commands are the basics.  But they are enough for our purposes and
 
 #Opening the Command Line
 
-* 1) Click the `Start|Run` button in the bottom left
-* 2) Type: `CMD`
+* 1) Click the `Windows Icon` button in the bottom left of your keyboard
+* 2) Start to type `terminal` and it should auto-populate
 * 3) Hit enter
 
 #The Commands
@@ -22,11 +22,13 @@ The following commands are the basics.  But they are enough for our purposes and
 
 `dir` = lists the current files in the current directory
 
+`touch <filename>` = creates a new file
+
 `mkdir` = creates a new directory
 
 `del <file_name>` = deletes the named file withing the directory
 
-`rd <directory_name>` = deletes the named directory and all the files within it
+`rd <directory_name> /s` = deletes the named directory and all the files within it
 
 `mv <original_file> <new_location>` = moves a file from one directory to another
 
