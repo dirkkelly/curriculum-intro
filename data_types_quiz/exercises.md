@@ -16,7 +16,7 @@
 ```
 
 #Stay Fly
-**Learning Goal:** Practice using the basic `String` methods as well as local variables and arrays
+**Learning Goal:** Practice using the basic `String` methods as well as `variables` and `arrays`
 
 **Task:**  You are a baller.  You decide to buy four new cars.  
 1. Create 4 `local_variables`.  Each one should hold a string representing a new car you purchased.  
