@@ -69,6 +69,7 @@ class War
           computer.add_cards(war_spoils)
         end
 
+        war_spoils.clear
 
       elsif result.winner == "player"
         puts "player wins"
@@ -101,8 +102,8 @@ class War
   def current_state_of_game
     puts "------"
     puts ""
-    puts "player: #{player.total_cards}"
-    puts "computer: #{computer.total_cards}"
+    puts "player's total cards: #{player.total_cards}"
+    puts "computer's total cards: #{computer.total_cards}"
   end
 end
 
