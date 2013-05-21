@@ -2,6 +2,7 @@
 
 ###create a mapping for each letter in the alphabet with another letter.
 This is refered to as a `rot` sequence, where rot is short for `rotate`.
+
 example rot-1 sequence
 ```
 Original Value:New Value
@@ -18,7 +19,7 @@ As you can see, each value is shifted or rotated by 1 letter
 hash syntax #=> {"dog" => "midnight", "cat" => "pinky"}
 ```
 
-###Create a method called `encrypt` that will intake a `string ` as an argument and encrpt each letter.
+###Create a method called `encrypt` that will intake a `string ` as an argument and encrypt each letter.
 Use your newly created encryption mapping saved in the hash.
 
 **Hint:** A method with an argument looks like the following
@@ -34,7 +35,7 @@ end
 "super_hot_soup".split("_") #=> ["super", "hot", "soup"]
 ```
 
-**Hint:** Once you have an `array` of letters, you can loop through each one, encrypt it, then store it in a new array. To store new value in an array use the `<<` method.  Known as the shovel operator.
+**Hint:** Once you have an `array` of letters, you can loop through each one, encrypt it, then store it in a new array. To store a new value in an array use the `<<` method.  Known as the shovel operator.
 ```
 [1,2,3] << 4 #=> [1,2,3,4]
 ```
@@ -43,10 +44,10 @@ end
 ["k","a","n","y","e"].join("") #=> "kanye"
 ```
 
-###Create a method called `decrypt` that takes a `string ` as an argument and returns is original (readable) value.
+###Create a method called `decrypt` that takes a `string ` as an argument and returns its original (readable) value.
 **Hint:** You should have all the tools you need to solve this from the above encrypting method.  Now you just need to do it in reverse.
 
-###Sample out of the program
+###Sample output of the program
 ```
 word = "batman"
 

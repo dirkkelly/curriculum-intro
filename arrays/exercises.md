@@ -11,7 +11,7 @@ For example
 ["lakers", "spurs", "thunder", "waldo", "boston"]
 [1, "waldo", "clouds", "4tran", 'ruby']
 ['sony', [:so_cool, :happy, "train", "waldo"], "chimney"]
-["car", "boat", 1, "iceberg", waldo]
+["car", "boat", 1, "iceberg", "waldo"]
 ```
 
 **Task:** For each of the following arrays, replace "place_waldo_here" with the actual value of "waldo".  Try using both the `[]`, `first` and `last` methods.
