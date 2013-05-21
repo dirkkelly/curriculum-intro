@@ -1,0 +1,1 @@
+Review of basic data types: String, Integer, Variables, and Array
