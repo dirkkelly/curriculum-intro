@@ -1,6 +1,0 @@
-require_relative "card.rb"
-require_relative "card_calc.rb"
-require_relative "card_deck.rb"
-require_relative "player.rb"
-require_relative "sudden_death.rb"
-require_relative "war_event.rb"
