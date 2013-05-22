@@ -66,8 +66,6 @@ One problem with our above `encrypt` method is that if we pass in a capitalized 
 
 **Hint:** The method `downcase` when called on string maybe of some help!
 
-#Iteration 3
-Something cool is coming...
 
 
 
