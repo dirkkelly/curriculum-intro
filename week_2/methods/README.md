@@ -1,0 +1,1 @@
+The methods are a great way to package our code so that we can pass it around and use it whenever we want.
