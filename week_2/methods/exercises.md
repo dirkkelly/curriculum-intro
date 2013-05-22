@@ -23,14 +23,14 @@ divide(10,5) #=> 2
 divide(20,0) #=> "Sorry, can't divide by zero"
 ```
 
-####3: Write a method that creats a mad libs joke.  The method should take 3 arguments a noun, verb, and an adjective.
+####3: Write a method that creats a mad libs joke.  The method should take 3 arguments a noun, verb, and an adverb.
 Use the below format as the outline for your method
 ```
 A <noun> <verb> into a bar.
-Wow this joke is already <adj> funny!
+Wow this joke is already <adv> funny!
 
-bar_joke("dolphin", "flys", "tiny")
- #=> "A dolphin flys into a bar.  Wow, this joke is already tiny funny!"
+bar_joke("dolphin", "flys", "eternally")
+ #=> "A dolphin flys into a bar.  Wow, this joke is already eternally funny!"
 
 ```
 
