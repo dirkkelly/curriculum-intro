@@ -1,6 +1,6 @@
 #Working With Each
 **Learning Goal:** Practice using the `each` method
-**Task:** Loop thru the animals array and perform the necessary actions
+
 **Reference:**
 ```
 [1,2,3].each do |number|
@@ -11,6 +11,7 @@ end
  #=> 3
 ```
 
+**Task:** Loop thru the animals array and perform the necessary actions
 ```
 animals = ["zebra", "lion", "kangaroo", "turtle", "squirrel", "chipmunk", "elephant", "dragon", "t-rex", "pikachu"]
 
