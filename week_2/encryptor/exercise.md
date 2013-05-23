@@ -18,7 +18,7 @@ As you can see, each value is shifted or rotated by 1 letter
 hash syntax #=> {"dog" => "midnight", "cat" => "pinky"}
 ```
 
-###Create a method called `encrypt` that will intake a `string ` as an argument and encrpt each letter.
+###Create a method called `encrypt` that will intake a `string ` as an argument and encrypt each letter.
 Use your newly created encryption mapping saved in the hash.
 
 **Hint:** A method with an argument looks like the following
@@ -65,6 +65,12 @@ One problem with our above `encrypt` method is that if we pass in a capitalized 
 ###Create a method called `clean` that will take a string and downcase it.
 
 **Hint:** The method `downcase` when called on string maybe of some help!
+
+# Extensions
+
+* Write a program to crack other people's rot cipher without knowing how many characters they rotate each letter.
+* It is very easy to crack the rot cipher. Write a more secure cipher.
+
 
 
 
