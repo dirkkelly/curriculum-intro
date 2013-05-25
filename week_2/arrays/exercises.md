@@ -34,6 +34,10 @@ e = ["place_waldo_here", "lamp", "mouse", "headphones", "objects around me now"]
 **Task:** Write a script that does a countdown from 10 to 1.  After the last value '1' it should say "Houston, we have liftoff"
 
 ```
+countdown = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+```
+
+```
 10
 9
 8
