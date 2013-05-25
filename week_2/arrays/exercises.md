@@ -24,7 +24,7 @@ a = ["a", "b", "c"] a[2] = "bling" #=> ["a", "b", "bling"]
 
 b = ["dc", "md", "place_waldo_here"]
 c = ["15", "train", ["movies", "dates"], "place_waldo_here", "w"]
-d = ["a", 4, "y", [:car, "laptop, "place_waldo_here"], "g", :f]
+d = ["a", 4, "y", [:car, "laptop", "place_waldo_here"], "g", :f]
 e = ["place_waldo_here", "lamp", "mouse", "headphones", "objects around me now"]
 ```
 
