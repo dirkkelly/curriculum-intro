@@ -11,7 +11,7 @@ For example
 ["lakers", "spurs", "thunder", "waldo", "boston"]
 [1, "waldo", "clouds", "4tran", 'ruby']
 ['sony', [:so_cool, :happy, "train", "waldo"], "chimney"]
-["car", "boat", 1, "iceberg", waldo]
+["car", "boat", 1, "iceberg", "waldo"]
 ```
 
 **Task:** For each of the following arrays, replace "place_waldo_here" with the actual value of "waldo".  Try using both the `[]`, `first` and `last` methods.
@@ -24,7 +24,7 @@ a = ["a", "b", "c"] a[2] = "bling" #=> ["a", "b", "bling"]
 
 b = ["dc", "md", "place_waldo_here"]
 c = ["15", "train", ["movies", "dates"], "place_waldo_here", "w"]
-d = ["a", 4, "y", [:car, "laptop, place_waldo_here"], "g", :f]
+d = ["a", 4, "y", [:car, "laptop, "place_waldo_here"], "g", :f]
 e = ["place_waldo_here", "lamp", "mouse", "headphones", "objects around me now"]
 ```
 
