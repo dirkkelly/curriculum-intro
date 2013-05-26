@@ -11,25 +11,6 @@ your_awesome_script
 #=> { "obama" => "4108529630" }
 ```
 
-#Word Profile
-**Learning Goal:**  Building a hash from an array, setting keys, retrieving values and incrementing those values, printing hash key and values.
-
-**Task:** Given a string with any number/type of characters build a hash that tracks the frequency of each character in the given string.
-
-**Hint:** Use `String#split` to break a string into an array of its individual characters.  A letter's frequency can be found by dividing its occurance by the total length of the string.
-
-```
-word_profiler("fizzbuzz")
-
-#=>
-Profile of Fizzbuzz:
-f: 12.5%
-i: 12.5%
-z: 50.0%
-b: 12.5%
-u: 12.5%
-```
-
 #Scrabble Score
 **Learning Goal:** Hash lookup table, retrieving data, inserting data
 
@@ -52,4 +33,23 @@ scrabble_score("cabbage")
 #=> 14
 ```
 
+# Extensions
 
+# Word Profile
+**Learning Goal:**  Building a hash from an array, setting keys, retrieving values and incrementing those values, printing hash key and values.
+
+**Task:** Given a string with any number/type of characters build a hash that tracks the frequency of each character in the given string.
+
+**Hint:** Use `String#split` to break a string into an array of its individual characters.  A letter's frequency can be found by dividing its occurance by the total length of the string.
+
+```
+word_profiler("fizzbuzz")
+
+#=>
+Profile of Fizzbuzz:
+f: 12.5%
+i: 12.5%
+z: 50.0%
+b: 12.5%
+u: 12.5%
+```
