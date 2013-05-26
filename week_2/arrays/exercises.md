@@ -24,7 +24,7 @@ a = ["a", "b", "c"] a[2] = "bling" #=> ["a", "b", "bling"]
 
 b = ["dc", "md", "place_waldo_here"]
 c = ["15", "train", ["movies", "dates"], "place_waldo_here", "w"]
-d = ["a", 4, "y", [:car, "laptop, "place_waldo_here"], "g", :f]
+d = ["a", 4, "y", [:car, "laptop", "place_waldo_here"], "g", :f]
 e = ["place_waldo_here", "lamp", "mouse", "headphones", "objects around me now"]
 ```
 
@@ -32,6 +32,10 @@ e = ["place_waldo_here", "lamp", "mouse", "headphones", "objects around me now"]
 **Learning Goal:** Iterating through the values in an array
 
 **Task:** Write a script that does a countdown from 10 to 1.  After the last value '1' it should say "Houston, we have liftoff"
+
+```
+countdown = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+```
 
 ```
 10
