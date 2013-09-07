@@ -76,11 +76,10 @@ Result should look like:
 **Hint:** The methods `push` and `pop` maybe helpful!  `push` will add a new value to the end of an array and `pop` will take the last value out of an array.
 
 ```
-my_golf_scorecard = [1,2,3,4,5]
+reverse_it([1,2,3,4,5])
 
-your_awesome_script
+#=> [5,4,3,2,1]
 
-my_golf_scorecard = [5,4,3,2,1]
 ```
 
 
