@@ -43,7 +43,7 @@ end
 ["k","a","n","y","e"].join("") #=> "kanye"
 ```
 
-###Create a method called `decrypt` that takes a `string ` as an argument and returns is original (readable) value.
+###Create a method called `decrypt` that takes a `string ` as an argument and returns it's original (readable) value.
 **Hint:** You should have all the tools you need to solve this from the above encrypting method.  Now you just need to do it in reverse.
 
 ###Sample out of the program
