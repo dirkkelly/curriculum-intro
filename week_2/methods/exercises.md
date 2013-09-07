@@ -23,7 +23,7 @@ puts divide(10,5) #=> 2
 puts divide(20,0) #=> "Sorry, can't divide by zero"
 ```
 
-####3: Write a method that creats a mad libs joke.  The method should take 3 arguments a noun, verb, and an adverb.
+####3: Write a method that creates a mad libs joke.  The method should take 3 arguments a noun, verb, and an adverb.
 Use the below format as the outline for your method
 ```
 A <noun> <verb> into a bar.
