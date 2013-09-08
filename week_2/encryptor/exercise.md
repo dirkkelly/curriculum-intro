@@ -13,6 +13,18 @@ D:E
 As you can see, each value is shifted or rotated by 1 letter
 ```
 
+####Rotated Hash Encryption
+```
+     {'a' => 'n', 'b' => 'o', 'c' => 'p', 'd' => 'q',
+     'e' => 'r', 'f' => 's', 'g' => 't', 'h' => 'u',
+     'i' => 'v', 'j' => 'w', 'k' => 'x', 'l' => 'y',
+     'm' => 'z', 'n' => 'a', 'o' => 'b', 'p' => 'c',
+     'q' => 'd', 'r' => 'e', 's' => 'f', 't' => 'g',
+     'u' => 'h', 'v' => 'i', 'w' => 'j', 'x' => 'k',
+     'y' => 'l', 'z' => 'm'}
+
+```
+
 **Hint:** Using a `hash` is a great option when needing to map one value to another
 ```
 hash syntax #=> {"dog" => "midnight", "cat" => "pinky"}
