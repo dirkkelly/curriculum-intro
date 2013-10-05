@@ -5,11 +5,11 @@
 
 * Create a new directory called `codelater`
 
-####Oops! You realize it needs to be called `codenow`
+####Oops! You realize it needs to be called `code`
 
 * Move up a directory and delete `codelater`
-* Make a new directory properly named `codenow`
-* Create a new file inside `codenow ` called `hello world.txt`
+* Make a new directory properly named `code`
+* Create a new file inside `code ` called `hello world.txt`
 
 ####Oops! We should really not name files with spaces, use underscores instead
 
