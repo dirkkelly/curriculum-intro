@@ -9,11 +9,11 @@
 
 * Move up a directory and delete `codelater`
 * Make a new directory properly named `code`
-* Create a new file inside `code ` called `hello world.txt`
+* Create a new file inside `code ` called `hello_world.txt`
 
 ####Oops! We should really not name files with spaces, use underscores instead
 
-* Rename the file `hello world.txt` to `hello_world.rb`
+* Rename the file `hello_world.txt` to `hello_world.rb`
 * Open `hello_world.rb` with Sublime Text 
 * Write `puts "Hello World"` and save the file
 * Run the file so that "Hello World" shows up in command line
