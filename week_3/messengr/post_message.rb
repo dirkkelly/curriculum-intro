@@ -1,25 +1,22 @@
-require 'faraday'
+require 'httparty'
 require 'json'
 
-MESSENGR_URL = ENV['PROD'] ? "http://messengr.herokuapp.com/messages" : "http://localhost:3000/messages"
+MESSENGR_URL = ENV['PROD'] ? "http://messengr.herokuapp.com/messages.json" : "http://localhost:1999/messages.json"
 
 print "Welcome to Messengr, what's your username: "
-user = gets.chomp
-@user = user
-@connection = Faraday.new(:url => MESSENGR_URL )
+@user = gets.chomp
 
 def send_message(message)
-  @connection.post do |req|
-    req.url '/messages'
-    req.headers['Content-Type'] = 'application/json'
-    req.body = { :user => @user, :text => message }.to_json
-  end
+  response = HTTParty.post(MESSENGR_URL, :query => { :user => @user, :text => message })
+
+  puts response.parsed_response.inspect
+
+  puts "ERROR: #{response.parsed_response['errors']}" if response.parsed_response["errors"]
 end
 
-while true
+begin
   print "Say something: "
   message = gets.chomp
   break if message == "quit"
   response = send_message(message)
-end
-
+end while true
